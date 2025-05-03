@@ -1,0 +1,18 @@
+[
+    {
+      "user_id": "ユーザID1",
+      "status": "入室",
+      "status_changed_at": "2024-05-01T10:00:00Z"
+    },
+    {
+      "user_id": "ユーザID2",
+      "status": "入室",
+      "status_changed_at": "2024-05-01T11:00:00Z"
+    },
+    {
+      "user_id": "ユーザID3",
+      "status": "退室",
+      "status_changed_at": "2024-05-01T12:00:00Z"
+    }
+  ]
+  

@@ -1,0 +1,30 @@
+//getall
+http://localhost:8080/inout_table/entry_logs
+
+###
+
+//getone
+http://localhost:8080/inout_table/entry_logs/6816a1554b48c365599e77b4
+
+###
+POST http://localhost:8080/inout_table/entry_logs
+content-Type: application/json
+
+{
+    "user_id":"ユーザID123",
+    "status":"入室",
+    "status_changed_at":"2024-05-01T10:00:00"
+}
+
+###
+DELETE http://localhost:8080/inout_table/entry_logs/6816a1554b48c365599e77b3
+
+###
+
+PATCH http://localhost:8080/inout_table/entry_logs/6816a1554b48c365599e77b3
+content-Type: application/json
+
+{
+    "status": "入室"
+    
+}
